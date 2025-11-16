@@ -2,6 +2,7 @@
 Self-implemented helper classes, variables and functions
 """
 
+
 class Task:
     def __init__(self, id, description, status, createdAt, updatedAt):
         self._id = id
